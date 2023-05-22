@@ -1,0 +1,25 @@
+name: Ruins
+author: "@jim_amlt"
+description: |
+  `@jim_amlt`
+  
+  Мы нашли странную дверь, когда исследовали руины, но она не открывается... 
+  Может быть, мы сможем как-то посмотреть на внутреннее устройство двери? 
+  <img src="https://codigoespagueti.com/wp-content/uploads/2022/11/suzume-no-tojimari-nuevo-trailer.jpg" title="not you" style="max-width: 100%; height: auto;">
+category: reverse
+value: 100
+type: dynamic
+
+extra:
+    initial: 100
+    decay: 10
+    minimum: 10
+
+flags:
+  - vrnctf{7r345ur3_15_y0u_4nd_y0ur_fr13nd5}
+
+files:
+  - public/ruins.jar
+
+state: visible
+version: "0.1"
